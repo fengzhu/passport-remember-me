@@ -1,6 +1,6 @@
 {
   "name": "passport-rememberme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remember Me cookie authentication strategy for Passport.",
   "keywords": ["passport", "cookie", "persistent", "rememberme", "auth", "authn", "authentication"],
   "repository": {
@@ -22,7 +22,7 @@
   "main": "./lib",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport": "~0.3.0"
+    "passport-strategy": "1.x.x"
   },
   "devDependencies": {
     "mocha": "1.x.x",
